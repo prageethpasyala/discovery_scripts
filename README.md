@@ -18,4 +18,4 @@ If you want to RUN the information collection for ONE ACCOUNT onto MULTIPLE REGI
     ./multi_region.sh
 
   If jq error add following to the error jq statment 
-  jq '.' | head
+  ``` jq '.' | head ```

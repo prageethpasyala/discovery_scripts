@@ -17,4 +17,5 @@ If you want to RUN the information collection for ONE ACCOUNT onto MULTIPLE REGI
     Execute the script as follows, for example:
     ./multi_region.sh
 
-  
+  If jq error add following to the error jq statment 
+  jq '.' | head
